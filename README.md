@@ -16,5 +16,5 @@ conda activate venv/
 ```
 Heroku Project deployment link
 ```
-https://carpricepredictor11.herokuapp.com/predict
+https://carpricepredictor11.herokuapp.com
 ```
