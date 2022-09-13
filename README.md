@@ -14,3 +14,7 @@ activate a new environment
 ```
 conda activate venv/
 ```
+Heroku Project deployment link
+```
+https://carpricepredictor11.herokuapp.com/predict
+```
