@@ -1,0 +1,22 @@
+*{
+    font-family: 'Mukta', sans-serif;
+    color: white;
+}
+body{
+    padding-left: 5vw;
+    background: rgb(15,15,15);
+    background: linear-gradient(90deg, rgba(15,15,15,1) 0%, rgba(9,9,121,1) 16%, rgba(0,212,255,1) 100%);
+}
+input,button{
+    padding: 7.5px 0;
+}
+.line{
+    width: 25vw;
+}
+h1{
+    font-size: 32px;
+}
+select{
+    padding: 7.5px 0;
+    width:8vw; 
+}
