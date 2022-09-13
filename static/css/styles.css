@@ -16,7 +16,8 @@ input,button{
 h1{
     font-size: 32px;
 }
-select{
+select,option{
     padding: 7.5px 0;
     width:8vw; 
+    color :black;
 }
