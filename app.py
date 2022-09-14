@@ -61,8 +61,8 @@ def predict():
     
     prediction=regmodel.predict([[Present_Price,Kms_Driven,Owner,Year,Fuel_Type_Diesel,Fuel_Type_Petrol,Seller_Type_Individual,Transmission_Mannual]])
     print([Present_Price,Kms_Driven,Owner,Year,Fuel_Type_Diesel,Fuel_Type_Petrol,Seller_Type_Individual,Transmission_Mannual])
-    selling_price = prediction[0]
-    return render_template("home.html",prediction_text="The car price is {}".format(selling_price))
+    selling_price = ('%.2f' % prediction[0])
+    return render_template("home.html",prediction_text="The car price is (in Lakhs) :- {}".format(selling_price))
 
 if __name__=="__main__":
     app.run(debug = True)
